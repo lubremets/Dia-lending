@@ -1,0 +1,23 @@
+.button {
+  display: block;
+  background-color: $color-decoration;
+  width: 226px;
+  height: 56px;
+  border-radius: 64px;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #2F80ED;
+  transition: background-color $hover-duration;
+}
+
+.button:hover {
+  background-color: #FCC304;
+}
+
+@media screen and (max-width: 1279px) {
+  .button {
+    width: 170px; 
+    height: 42px;
+  }
+}

@@ -1,0 +1,15 @@
+
+$light-active-color: #d5c5aa;
+$hover-duration: 0.2s;
+$color-decoration:  #00aaef;
+$color-decoration-blue: #56CCF2;
+$color-decoration-yellow: #FCC304;
+$color-decoration-green: #03D542;
+$color-decoration-red: #F25656;
+$font-size_12_6: 12.6px;
+$font-size_24: 24px;
+
+@mixin centered {
+  left: 0;
+  right: 0;  
+}

@@ -1,0 +1,39 @@
+.header {
+  height: 814px;
+  background-image: url('../images/Rectangle.png');
+  background-size: cover;
+  background-position: center;
+  font-weight: 700;
+  position: relative;
+  box-sizing: border-box;
+  padding: 116px calc(50% - 570px);
+
+  & > :last-child {
+    width: 2560px;
+    height: 1200px;
+    background-color: #E5E5E5;
+    position: relative;
+    bottom: 200px;
+    left: 1050px;
+    transform: rotate(24.9deg);
+  }
+}
+
+@media screen and (max-width: 1449px) {
+  .header {
+    height: 700px;
+    padding: 116px 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    height: 658px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    height: 730px;
+  }
+}

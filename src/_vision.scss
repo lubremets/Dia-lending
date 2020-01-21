@@ -1,0 +1,116 @@
+.vision {
+  max-width: 766px;
+  margin: 0 auto;
+  &__heading {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+  }
+
+  &__text {
+  font-weight: 600;
+  font-size: $font-size_24;
+  line-height: 150%;
+  text-align: center;
+  color: #334563;
+  padding: 55px 0;
+  }
+
+  &__button {
+    margin: 0 auto;
+  }
+
+  &__oval {
+    &1 {
+      position: absolute;
+      left: 82.16px;
+      top: 499.21px;
+    }
+
+    &2 {
+      position: absolute;
+      left: 131.42px;
+      top: 671.29px;
+    }
+
+    &3 {
+      position: absolute;
+      left: 233px;
+      top: 217.65px;
+    }
+  
+    &4 {
+      position: absolute;
+      left: 269px;
+      top: 480.74px;
+    }
+
+    &5 {
+      position: absolute;
+      left: 446px;
+      top: 186.07px;
+
+    }
+
+    &6 {
+      position: absolute;
+      left: 481px;
+      top: 574.07px;
+    }
+
+    &7 {
+      position: absolute;
+      right: 532px;
+      top: 623.07px;
+    }
+  
+    &8 {
+      position: absolute;
+      right: 294.98px;
+      top: 530.81px;
+    }
+
+    &9 {
+      position: absolute;
+      right: 195.91px;
+      top: 328.7px;
+    }
+
+    &10 {
+      position: absolute;
+      right: 123.69px;
+      top: 620.49px;
+    }
+
+    &11 {
+      position: absolute;
+      right: 91px;
+      top: 226.18px;
+    }
+  
+    &12 {
+      position: absolute;
+      right: 47px;
+      top: 422.88px;
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .vision {
+    padding: 0 30px;
+
+    &__heading {
+      font-size: 32px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    &__ovals {
+      display: none;
+    }
+  }
+}

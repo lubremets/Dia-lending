@@ -1,0 +1,99 @@
+.footer {
+  
+  padding: 90px calc(50% - 570px);
+
+  &__call {
+    display: grid;
+    grid-template-columns: repeat(2, 370px);
+    justify-content: space-between;
+  }
+
+  &__nav {
+
+    padding-top: 136px;
+    display: grid;
+    grid-template-columns: 260px 570px;
+    justify-content: space-between;
+
+    &_text {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    padding: 80px 30px;
+
+    &__call {
+      justify-content: center;
+    }
+
+    &__nav {
+      justify-content: center;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .footer {
+
+    &__call {
+      justify-content: center;
+      grid-template-columns: 280px;
+      grid-row-gap: 100px;
+    }
+
+    &__nav {
+      grid-template-columns: 202px;
+      grid-row-gap: 10px;
+      padding-top: 60px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+
+    &__call {
+      justify-content: center;
+      grid-template-columns: 250px;
+      grid-row-gap: 100px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+  }
+}
+
+// .footer {                                            footer.css ФАЙЛ
+//   height: 540px;
+//   background-image: url("../images/footer.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   display: -webkit-box;
+//   display: -ms-flexbox;
+//   display: flex;
+//   -webkit-box-pack: center;
+//       -ms-flex-pack: center;
+//           justify-content: center;
+// }
+
+// .footer__logo {
+//   position: relative;
+//   top: 369px;
+// }
+// /*# sourceMappingURL=footer.css.map */
